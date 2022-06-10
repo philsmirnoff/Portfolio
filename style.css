@@ -355,7 +355,7 @@ p {
 #about .col-right {
 	display: inline-block;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 150px;
+	font-size: 100px;
 	color: black;
 	animation: fadeIn linear 7s;
 	-webkit-animation: fadeIn linear 7s;
@@ -443,7 +443,7 @@ p {
 	content: '';
 	position: absolute;
 	left: -33px;
-	top: 19px;
+	top: 0px;
 	height: 98%;
 	width: 98%;
 	border: 7px solid crimson;
