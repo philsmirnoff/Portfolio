@@ -176,7 +176,7 @@ p {
 	z-index: 100;
 	cursor: pointer;
 	transform: scale(0.8);
-	margin-right: 20px;
+	margin-right: 0px;
 }
 
 #header .hamburger:after {
@@ -527,6 +527,7 @@ p {
 
 #projects .project-info p {
 	color: white;
+
 }
 
 #projects .project-img {
@@ -629,7 +630,7 @@ p {
 #footer h2 {
 	color: white;
 	font-weight: 500;
-	font-size: 1.8rem;
+	font-size: 1.7rem;
 	letter-spacing: 0.1rem;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -701,6 +702,38 @@ p {
 }
 
 /* End Keyframes */
+
+
+
+@media only screen and (max-width: 400px) {
+
+	.footer p {
+		text-align: center;
+	}
+
+	#about .col-left .about-img {
+		height: 100%;
+		width: 100%;
+		position: relative;
+		border: 10px solid white;
+		margin-bottom: 100px;
+	}
+
+	#about .col-left .about-img::after {
+		content: '';
+		position: absolute;
+		left: -33px;
+		top: 10px;
+		height: 98%;
+		width: 98%;
+		border: 7px solid crimson;
+		z-index: -1;
+	}
+
+	#projects .project-info p {
+		font-size: 1.6rem;
+	}
+}
 
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
